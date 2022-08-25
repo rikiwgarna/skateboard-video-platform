@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
   --clr-dark-purple: hsl(249, 19%, 14%);
   --clr-purple: #6C5ECF;
@@ -7,6 +9,32 @@
   --clr-green: #22B07D;
   --clr-blue: #08A0F7;
   --clr-dark-blue: #242730;
+
+  --ff-primary: "Poppins", sans-serif;
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semiBold: 600;
+
+  --fs-100:.625rem; /*10px*/
+  --fs-150: .6875rem; /*11px*/
+  --fs-200: .75rem; /*12px*/
+  --fs-250: .8125rem; /*13px*/
+  --fs-300: .875rem; /*14px*/
+  --fs-350: .9375rem; /*15px*/
+  --fs-400: 1rem; /*16px*/
+  --fs-450: 1.75rem; /*28px*/
+  --fs-500: 1.875; /*30px*/
+  --fs-550: 2.5rem; /*40px*/
+
+  --fs-nav: var(--fs-300);
+  --fs-primary-heading: var(--fs-550);
+  --fs-secondary-heading: var(--fs-450);
+  --fs-tertiary-heading: var(--fs-150);
+
+  
 }
 
 /* Box sizing rules */
