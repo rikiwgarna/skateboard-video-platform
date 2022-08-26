@@ -119,7 +119,7 @@ body{
 }
 
 aside {
-  width: 15%;
+  width: 10%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -142,14 +142,18 @@ aside {
   margin-bottom: 32px;
 }
 
-.nav-list li:last-child {
+/* .nav-list li:last-child {
   margin-bottom: 48px;
-}
+} */
 
 h3 {
   font-size: var(--fs-tertiary-heading);
   font-weight: var(--fw-semiBold);
   color: var(--clr-light-purple);
   text-transform: uppercase;
+}
+
+.menu-nav, .category-nav {
+  margin-bottom: 48px;
 }
 
