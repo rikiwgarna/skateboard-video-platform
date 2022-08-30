@@ -146,6 +146,10 @@ aside {
   margin-bottom: 48px;
 } */
 
+li {
+  list-style: none;
+}
+
 h3 {
   font-size: var(--fs-tertiary-heading);
   font-weight: var(--fw-semiBold);
@@ -160,4 +164,24 @@ h3 {
 .thumbnail-list {
   display: flex;
 }
+
+.primary-banner {
+  background: url(./assets/thumbnail/thumbnail-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 724px;
+  height: 366px;
+}
+
+.secondary-banner {
+  background: url(./assets/thumbnail/thumbnail-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 352px;
+  height: 366px;
+}
+
+
 
